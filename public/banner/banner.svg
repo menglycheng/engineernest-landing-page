@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="417" fill="none" viewBox="0 0 1920 417">
+  <g clip-path="url(#a)">
+    <path fill="#2F80ED" d="M-3 0h1923v416.65H-3z"/>
+    <mask id="b" width="918" height="417" x="-3" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="#E0FF22" d="M-3 0h917.431v416.65H-3z"/>
+    </mask>
+    <g mask="url(#b)">
+      <ellipse cx="340.598" cy="208.918" fill="url(#c)" rx="268.214" ry="266.494" transform="rotate(90 340.598 208.918)"/>
+      <ellipse cx="623.575" cy="208.918" fill="url(#d)" rx="268.214" ry="266.494" transform="rotate(90 623.575 208.918)"/>
+      <ellipse cx="86.377" cy="208.918" fill="url(#e)" rx="268.214" ry="266.494" transform="rotate(90 86.377 208.918)"/>
+      <ellipse cx="-167.845" cy="208.918" fill="url(#f)" rx="268.214" ry="266.494" transform="rotate(90 -167.845 208.918)"/>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="c" x1="343.098" x2="367.779" y1="-10.68" y2="508.485" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3461FF"/>
+      <stop offset="1" stop-color="#8399E9"/>
+    </linearGradient>
+    <linearGradient id="d" x1="626.074" x2="650.756" y1="-10.68" y2="508.485" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3461FF"/>
+      <stop offset="1" stop-color="#8399E9"/>
+    </linearGradient>
+    <linearGradient id="e" x1="88.877" x2="113.558" y1="-10.68" y2="508.485" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3461FF"/>
+      <stop offset="1" stop-color="#8399E9"/>
+    </linearGradient>
+    <linearGradient id="f" x1="-165.345" x2="-140.664" y1="-10.68" y2="508.485" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3461FF"/>
+      <stop offset="1" stop-color="#8399E9"/>
+    </linearGradient>
+    <clipPath id="a">
+      <path fill="#fff" d="M-3 0h1923v417H-3z"/>
+    </clipPath>
+  </defs>
+</svg>
