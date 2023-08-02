@@ -7,25 +7,27 @@ import {
 
 export const OurVision = () => {
   return (
-    <div className="flex my-20 w-3/5">
+    <div className="flex flex-col md:flex-row my-20 w-3/4 ">
       {/* left box  */}
-      <div className="w-3/4 ">
+      <div className="w-full md:w-3/4 ">
         <h2 className="text-blue text-lg font-bold">Our Vision</h2>
-        <p className="text-2xl font-light w-3/4 mt-4">
+        <p className="text-xl md:text-2xl font-light w-full md:w-3/4 mt-4">
           Bridge the gap between ambitious startups and talented software
           engineers.
         </p>
-        <button className="text-base mt-16 px-10 text-white   font-normal bg-blue rounded-3xl py-3">
-          Detail About Us
-        </button>
+        <div className="w-full flex justify-end md:justify-start">
+          <button className="text-sm md:text-base   mt-10 md:mt-16 px-5 md:px-10 text-white  font-normal bg-blue rounded-3xl py-2 md:py-3">
+            Detail About Us
+          </button>
+        </div>
       </div>
       {/* right box  */}
-      <div className="w-full flex justify-center items-center">
+      <div className="w-full flex justify-start md:justify-center my-8 md:my-0 items-center">
         <div className="flex flex-col justify-start items-start gap-12">
           {/* box 1 */}
           <div className="flex justify-center items-center gap-2">
-            <div className="bg-blue w-fit p-3 rounded-xl">
-              <BoltIcon className="w-10 h-10 text-white" />
+            <div className="bg-blue w-fit p-2 md:p-3 rounded-xl">
+              <BoltIcon className="w-8 md:w-10 h-8 md:h-10 text-white" />
             </div>
             <div>
               <h2 className="font-bold">Verified Engineers</h2>
@@ -36,8 +38,8 @@ export const OurVision = () => {
           </div>
           {/* box 2 */}
           <div className="flex justify-center items-center gap-2">
-            <div className="bg-blue w-fit p-3 rounded-xl">
-              <CurrencyDollarIcon className="w-10 h-10 text-white" />
+            <div className="bg-blue w-fit p-2 md:p-3 rounded-xl">
+              <CurrencyDollarIcon className="w-8 md:w-10 h-8 md:h-10 text-white" />
             </div>
             <div>
               <h2 className="font-bold">Innovative Startups</h2>
@@ -46,8 +48,8 @@ export const OurVision = () => {
           </div>
           {/* box 3 */}
           <div className="flex justify-center items-center gap-2">
-            <div className="bg-blue w-fit p-3 rounded-xl">
-              <ArrowTrendingUpIcon className="w-10 h-10 text-white" />
+            <div className="bg-blue w-fit p-2 md:p-3 rounded-xl">
+              <ArrowTrendingUpIcon className="w-8 md:w-10 h-8 md:h-10 text-white" />
             </div>
             <div>
               <h2 className="font-bold">Successful Matches</h2>

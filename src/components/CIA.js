@@ -5,7 +5,7 @@ export const CIA = () => {
   return (
     <div className="relative w-screen">
       <Image src={Banner} className="w-screen "></Image>
-      <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold text-white">
+      <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 tex-lg sm:text-xl md:text-3xl font-bold w-full text-center text-white">
         “Simplicity is the ultimate sophistication.”
       </p>
     </div>

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col justify-center items-center">
+    <main className="w-full flex flex-col justify-center items-center px-5 md:px-0  ">
       <HeroSection />
       <Parther />
       <OurVision />
