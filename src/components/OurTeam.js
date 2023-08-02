@@ -81,7 +81,7 @@ export const OurTeam = () => {
             </div>
           </div>
           <div
-            className="overflow-hidden overflow-x-scroll flex flex-row no-scrollbar"
+            className="overflow-hidden overflow-x-scroll flex flex-row scrollbar-hide"
             ref={teamCardRef}
           >
             <TeamCard />

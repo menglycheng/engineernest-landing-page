@@ -14,5 +14,5 @@ module.exports = {
       gray: "#FAFAFA",
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
