@@ -44,7 +44,11 @@ export default function Navbars() {
                   </div>
                   <div className="hidden md:ml-6 md:flex md:justify-center md:items-center md:space-x-8">
                     {menuItems.map((menuItem, index) => (
-                      <Link className="text-sm opacity-60" href={menuItem.link}>
+                      <Link
+                        className="text-sm opacity-60"
+                        key={index}
+                        href={menuItem.link}
+                      >
                         {menuItem.name}
                       </Link>
                     ))}
@@ -77,6 +81,7 @@ export default function Navbars() {
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               {menuItems.map((menuItem, index) => (
                 <Disclosure.Button
+                  key={index}
                   className="block  border-transparent py-2 pl-3 pr-4 text-base opacity-60 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                   href={menuItem.link}
                 >
