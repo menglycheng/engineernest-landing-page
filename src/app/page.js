@@ -1,5 +1,6 @@
 import { CIA } from "@/components/CIA";
 import { CIABox } from "@/components/CIABox";
+import Feedback from "@/components/Feedback";
 import { HeroSection } from "@/components/HeroSection";
 import { OurTeam } from "@/components/OurTeam";
 import { OurVision } from "@/components/OurVision";
@@ -14,6 +15,7 @@ export default function Home() {
       <CIA />
       <CIABox />
       <OurTeam />
+      <Feedback />
     </main>
   );
 }

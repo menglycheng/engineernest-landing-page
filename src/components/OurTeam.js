@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { TeamCard } from "./ourteam/TeamCard";
+import { TeamCard } from "./card/TeamCard";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 
 export const OurTeam = () => {

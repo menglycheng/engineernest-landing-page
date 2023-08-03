@@ -6,9 +6,30 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        blob: "blob 4s infinite ",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transfrom: "scale(1)",
+          },
+          "33%": {
+            transfrom: "scale(1.2)",
+          },
+          "66%": {
+            transfrom: "scale(0.8)",
+          },
+          "100%": {
+            transfrom: "scale(1)",
+          },
+        },
+      },
+    },
     colors: {
       blue: "#2F80ED",
+      lightblue: "#1845E6",
       white: "#FFF",
       black: "#000",
       gray: "#FAFAFA",

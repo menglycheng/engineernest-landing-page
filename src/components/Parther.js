@@ -55,7 +55,7 @@ const partherLogos = [
 
 export const Parther = () => {
   return (
-    <div className="w-screen flex items-center justify-center bg-gray">
+    <div className="relative w-screen flex items-center justify-center bg-gray">
       <div className="w-full md:w-3/5 flex flex-col items-center justify-center text-center py-16">
         <h1 className=" text-3xl font-semibold pb-16">Company Matched</h1>
         <div className="w-fit md:full  flex flex-wrap gap-10 items-center justify-center">
