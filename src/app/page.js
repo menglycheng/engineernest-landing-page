@@ -1,6 +1,9 @@
 import { CIA } from "@/components/CIA";
 import { CIABox } from "@/components/CIABox";
+import Copyright from "@/components/Copyright";
+import FAQ from "@/components/FAQ";
 import Feedback from "@/components/Feedback";
+import Footer from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { OurTeam } from "@/components/OurTeam";
 import { OurVision } from "@/components/OurVision";
@@ -16,6 +19,9 @@ export default function Home() {
       <CIABox />
       <OurTeam />
       <Feedback />
+      <FAQ />
+      <Footer />
+      <Copyright />
     </main>
   );
 }

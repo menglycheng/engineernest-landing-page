@@ -55,7 +55,7 @@ export default function Navbars() {
                   </div>
                 </div>
                 <div>
-                  <button className="hidden text-sm md:flex md:justify-center md:items-center text-white   font-normal bg-blue rounded-2xl py-1 px-2">
+                  <button className="hidden text-xs md:flex md:justify-center md:items-center text-white   font-normal bg-blue rounded-2xl py-1 px-4">
                     Sign Up For Free Now
                   </button>
                 </div>
