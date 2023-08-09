@@ -67,7 +67,7 @@ export const OurTeam = () => {
             <ArrowRightIcon className="w-5 h-5" />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-3">
+        <div className="flex flex-col lg:flex-row gap-3">
           <div className="w-full md:w-2/6">
             <h3 className="text-3xl font-bold">Consult With Our Team</h3>
             <p className="mt-5 opacity-60">
@@ -75,7 +75,7 @@ export const OurTeam = () => {
               Discover the amazing projects that await, and Dare to collaborate!
             </p>
             <div className="w-full flex justify-end md:justify-start">
-              <button className="text-sm md:text-base md:mt-14 mt-5 px-5 md:px-10 text-white  font-normal bg-blue rounded-3xl py-2 md:py-3">
+              <button className="text-xs md:text-sm md:mt-14 mt-5 px-5 md:px-10 text-white  font-normal bg-blue rounded-3xl py-2 md:py-3">
                 Consult Now For Free
               </button>
             </div>

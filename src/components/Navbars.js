@@ -1,8 +1,7 @@
 "use client";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { motion } from "framer-motion";
 import Logo from "../../public/Logo.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,7 +33,18 @@ export default function Navbars() {
     <Disclosure as="nav" className="bg-white ">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{
+              duration: 3,
+            }}
+            className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"
+          >
             <div className="relative flex h-16 justify-between">
               <div className="flex w-full items-center justify-between">
                 <div className="flex items-center justify-between">
@@ -74,7 +84,7 @@ export default function Navbars() {
               </div>
               {/* right */}
             </div>
-          </div>
+          </motion.div>
 
           <Disclosure.Panel className="md:hidden">
             <div className="space-y-1 text-right pb-4 pt-2">
