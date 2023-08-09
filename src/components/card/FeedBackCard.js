@@ -1,7 +1,7 @@
 import Image from "next/image";
 const FeedBackCard = () => {
   return (
-    <div className="flex-none hover:drop-shadow-lg my-2 w- md:w-96 h-32 sm:h-40 mt-5 rounded-lg bg-gray p-5">
+    <div className="flex-none hover:drop-shadow-lg my-2 w- md:w-96 h-32 sm:h-40 mt-5 rounded-lg bg-gray p-5 hover:bg-blue hover:text-white">
       <div className="flex justify-start gap-3 items-center">
         <Image
           className="rounded-full w-11 h-11 object-cover"
@@ -11,9 +11,7 @@ const FeedBackCard = () => {
           alt=""
         />
         <div>
-          <h3 className="text-sm sm:text-basefont-bold text-blue">
-            Mengly Cheng
-          </h3>
+          <h3 className="text-sm sm:text-base font-bold ">Mengly Cheng</h3>
           <p className="text-xs sm:text-sm">Chief Manager</p>
         </div>
       </div>

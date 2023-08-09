@@ -20,7 +20,7 @@ const faqs = [
 ];
 const FAQ = () => {
   return (
-    <div className="my-20 w-full md:w-3/4 flex justify-between items-center gap-20 flex-col md:flex-row  ">
+    <div className="my-20 w-full md:w-3/4 flex justify-between items-start gap-20 flex-col md:flex-row  ">
       {/* left side  */}
       <div className="w-full md:w-1/2">
         <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">

@@ -34,7 +34,9 @@ export const HeroSection = () => {
           }}
           className="text-2xl w-full sm:text-4xl md:text-6xl font-bold text-center "
         >
-          <span className="w-3/4">Finding the perfect match for</span>
+          <span className=" leading-relaxed ">
+            Finding the perfect match for
+          </span>
           &nbsp;
           <span className="w-72 md:text-left text-blue inline-block">
             {text} <Cursor cursorColor="blue" />
@@ -76,7 +78,7 @@ export const HeroSection = () => {
           className="flex w-full justify-center gap-4"
         >
           <input
-            className="bg-gray w-40 sm:w-72 rounded-3xl px-3 py-2 text-sm "
+            className="bg-gray border w-40 sm:w-72 rounded-3xl px-3 py-2 text-sm "
             placeholder="Enter your email"
             type="text"
           />

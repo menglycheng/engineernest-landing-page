@@ -55,7 +55,7 @@ export default function Navbars() {
                   <div className="hidden md:ml-6 md:flex md:justify-center md:items-center md:space-x-8">
                     {menuItems.map((menuItem, index) => (
                       <Link
-                        className="text-sm opacity-60"
+                        className="text-sm opacity-80"
                         key={index}
                         href={menuItem.link}
                       >
