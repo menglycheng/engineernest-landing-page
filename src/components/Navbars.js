@@ -52,6 +52,8 @@ export default function Navbars() {
                     <Image src={Logo} alt="" />
                     <p className="text-lg font-semibold">ENGINEERNEST</p>
                   </div>
+                </div>
+                <div>
                   <div className="hidden md:ml-6 md:flex md:justify-center md:items-center md:space-x-8">
                     {menuItems.map((menuItem, index) => (
                       <Link
@@ -63,11 +65,6 @@ export default function Navbars() {
                       </Link>
                     ))}
                   </div>
-                </div>
-                <div>
-                  <button className="hidden text-xs md:flex md:justify-center md:items-center text-white   font-normal bg-blue rounded-2xl py-1 px-4">
-                    Sign Up For Free Now
-                  </button>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center md:hidden">

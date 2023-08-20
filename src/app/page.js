@@ -17,8 +17,6 @@ export default function Home() {
       <OurVision />
       <CIA />
       <CIABox />
-      <OurTeam />
-      <Feedback />
       <FAQ />
       <Footer />
       <Copyright />
