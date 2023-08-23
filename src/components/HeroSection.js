@@ -82,7 +82,7 @@ export const HeroSection = () => {
             placeholder="Enter Your Email"
             type="text"
           />
-          <button className="bg-blue px-3 py-2 rounded-3xl text-white text-base">
+          <button className="bg-blue px-4 py-2 rounded-3xl text-white text-base">
             Lets Talk
           </button>
         </motion.div>
