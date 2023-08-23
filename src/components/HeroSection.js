@@ -78,11 +78,11 @@ export const HeroSection = () => {
           className="flex w-full justify-center gap-4"
         >
           <input
-            className="bg-gray border w-40 sm:w-72 rounded-3xl px-3 py-2 text-sm "
+            className="bg-gray border w-40 sm:w-72 rounded-3xl px-3 py-2 text-base border-opacity-75 "
             placeholder="Enter your email"
             type="text"
           />
-          <button className="bg-blue px-3 py-1 rounded-3xl text-white text-sm">
+          <button className="bg-blue px-3 py-1 rounded-3xl text-white text-base">
             Lets Talk
           </button>
         </motion.div>
