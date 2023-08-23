@@ -32,13 +32,13 @@ export const HeroSection = () => {
           transition={{
             duration: 1,
           }}
-          className="text-2xl w-full sm:text-4xl md:text-6xl font-bold text-center "
+          className="text-2xl w-full sm:text-4xl md:text-6xl font-bold text-center capitalize"
         >
           <span className=" leading-relaxed ">
             Finding the perfect match for
           </span>
           &nbsp;
-          <span className="w-72 md:text-left text-blue inline-block">
+          <span className="w-80 md:text-left ca text-blue inline-block">
             {text} <Cursor cursorColor="blue" />
           </span>
         </motion.h1>
