@@ -38,7 +38,7 @@ export const HeroSection = () => {
             Finding the perfect match for
           </span>
           &nbsp;
-          <span className="w-80 md:text-left text-blue inline-block">
+          <span className="w-96 md:text-left text-blue inline-block">
             {text} <Cursor cursorColor="blue" />
           </span>
         </motion.h1>
@@ -78,11 +78,11 @@ export const HeroSection = () => {
           className="flex w-full justify-center gap-4"
         >
           <input
-            className="bg-gray border w-40 sm:w-72 rounded-3xl px-3 py-2 text-base border-opacity-75 "
+            className="bg-gray border w-40 sm:w-72 rounded-3xl px-3 py-2 text-lg border-opacity-75 "
             placeholder="Enter your email"
             type="text"
           />
-          <button className="bg-blue px-3 py-1 rounded-3xl text-white text-base">
+          <button className="bg-blue px-3 py-1 rounded-3xl text-white text-lg">
             Lets Talk
           </button>
         </motion.div>
