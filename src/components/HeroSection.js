@@ -38,7 +38,7 @@ export const HeroSection = () => {
             Finding the perfect match for
           </span>
           &nbsp;
-          <span className="w-80 md:text-left ca text-blue inline-block">
+          <span className="w-80 md:text-left text-blue inline-block">
             {text} <Cursor cursorColor="blue" />
           </span>
         </motion.h1>
